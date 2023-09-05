@@ -277,6 +277,7 @@
                         color: $backgroundColor;
                         border: 2px solid $backgroundColor;
                         border-radius: 10px;
+                        font-size: 0.9rem;
                     }
                     span {
                         font-size: 1.3rem;
@@ -335,7 +336,7 @@
                     background-color: $btnOkColor;
                     color: $backgroundColor;
                     span {
-                        font-size: 1rem;
+                        font-size: 0.9rem;
                     }
                 }
             }

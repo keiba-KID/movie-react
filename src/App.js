@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <ApiProvider api={apiSlice}>
-      <BrowserRouter>
+      <BrowserRouter basename="movie">
         <AppRoutes></AppRoutes>
       </BrowserRouter>
     </ApiProvider>
